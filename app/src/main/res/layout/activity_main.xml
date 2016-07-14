@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_select_cat"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Select Categories"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_select_item"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Select Items"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_delete_item"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Delete Item"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_delete_items"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Delete Items"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_update_items"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Update Items"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_custom_select"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Custom Select"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_result_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
